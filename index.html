@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="container text-center text-danger heading">
+
+        <h1> Quiz App</h1> <span><img src="quizapp.jpg" width="200px" alt="quizApp"></span>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="first-question mt-5">
+                    <h3> Question - 1</h3>
+                    <fieldset>
+                        <legend>
+                                <h5> Who was the founder of Pakistan</h5>
+                            <input type="radio"  id="q-1-a" name="A" value="a"> <span class="text"> Quaid-e-Azam </span>
+                            <br>
+                            <input type="radio"  id="q-1-b" name="B" value="b"> <span class="text"> Alam-e-iqbal </span>
+                            <br>
+                            <input type="radio" id="q-1-c" name="C" value="c"> <span class="text"> Sir syed ahmed khan
+                            </span>
+                            <br>
+                            <input type="radio" id="q-1-d" name="D" value="d"> <span class="text"> Liaquat ali khan
+                            </span> <br>
+                        </legend>
+                    </fieldset>
+                </div>
+
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                <div class="Second-question">
+                    <h3> Question - 2</h3>
+                    <fieldset>
+                        <legend>
+                            <h5> Who is the prime minister of pakistan</h5>
+                            <input type="radio" id="q2-a" name="A" value="a"> <span class="text"> Nawaz shareef </span>
+                            <br>
+                            <input type="radio" id="q2-b" name="A" value="b"> <span class="text"> Bilawal Bhutto </span>
+                            <br>
+                            <input type="radio" id="q2-c" name="A" value="c"> <span class="text"> Imran khan </span>
+                            <br>
+                            <input type="radio" id="q2-d" name="A" value="d"> <span class="text"> Waseem Badami </span>
+                            <br>
+                        </legend>
+                    </fieldset>
+                </div>
+
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                <div class="Second-question">
+                    <h3> Question - 3</h3>
+                    <fieldset>
+                        <legend>
+                            <h5> Who is the Current captain of a Pakistan team</h5>
+                            <input type="radio" id="q3-a" name="A" value="a"> <span class="text"> Babar Azam </span>
+                            <br>
+                            <input type="radio" id="q3-b" name="A" value="b"> <span class="text"> Azhar ALi </span> <br>
+                            <input type="radio" id="q3-c" name="A" value="c"> <span class="text"> Sarfaraz Ahmed </span>
+                            <br>
+                            <input type="radio" id="q4-d" name="A" value="d"> <span class="text"> Fakhar Zaman </span>
+                            <br>
+                        </legend>
+                    </fieldset>
+                </div>
+
+            </div>
+            <div class="container">
+                <button class="btn btn-primary mt-5 text-center" id="btn" onclick="result()"> Submit Answers</button>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+
+</html>

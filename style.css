@@ -1,0 +1,16 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b2c5d9 !important;
+}
+.heading{
+    justify-content: center !important;
+    margin-top: 30px;
+    text-shadow: burlywood 2px 1px;
+}
+.text{
+    margin-left: 20px !important;
+    font-weight: 450;
+}
+.active-radio:active{
+    color: red !important;
+}
